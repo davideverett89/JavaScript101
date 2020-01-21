@@ -7,3 +7,4 @@ const valuePrinter = (arr, i) => {
 }
 
 console.log(valuePrinter(array, 4));
+
