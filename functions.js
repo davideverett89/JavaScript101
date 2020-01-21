@@ -3,13 +3,23 @@ const nuggetizer = (animal) => {
 }
 
 console.log(nuggetizer("chicken"));
-console.log(nuggetizer("fish"));
 
 const dogBreed = (breed) => {
     return `My favorite dog breed is ${breed}`;
 }
 
 console.log(dogBreed("lab"));
-console.log(dogBreed("is actually a cat"));
-console.log(dogBreed("lab"));
-console.log(dogBreed("lab"));
+
+const fortyTwo = (num) => {
+    return num + 42;
+}
+
+const oldAge = (birthYear) => {
+    return 2099 - birthYear;
+}
+
+console.log(fortyTwo(3)); 
+console.log(oldAge(1989));
+
+
+
